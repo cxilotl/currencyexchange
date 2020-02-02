@@ -1,0 +1,27 @@
+@import '../../assets/imports';
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: stretch;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+
+  .dropdown {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  .top {
+    flex-grow: 1;
+    background: linear-gradient(to bottom, rgba($section-lighter-color, 1) 0%, rgba($section-light-color, 1) 100%);
+  }
+
+  .bottom {
+    flex-grow: 1;
+    background: linear-gradient(to bottom, rgba($section-dark-color, 1) 0%, rgba($section-darker-color, 1) 100%);
+  }
+}

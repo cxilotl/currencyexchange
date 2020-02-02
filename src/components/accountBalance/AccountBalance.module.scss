@@ -1,0 +1,10 @@
+@import '../../assets/imports';
+
+.layout {
+  text-align: left;
+
+  .text {
+    @include font-size(12);
+    opacity: 0.6;
+  }
+}

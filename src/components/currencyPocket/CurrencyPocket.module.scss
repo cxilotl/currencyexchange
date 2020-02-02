@@ -1,0 +1,14 @@
+@import '../../assets/imports';
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+  height: 100%;
+  width: 100%;
+  padding: 0 35px;
+  color: $text-color;
+  text-align: center;
+}

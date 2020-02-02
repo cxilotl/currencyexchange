@@ -1,13 +1,13 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import App from './App';
+import CurrencyExchangeWidget from "./CurrencyExchangeWidget";
 
-describe('App', () => {
+describe('CurrencyExchangeWidget', () => {
 
   it('Snapshot', () => {
     const component = renderer.create(
-      <App/>
-      );
+      <CurrencyExchangeWidget/>
+    );
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });

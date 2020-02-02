@@ -1,0 +1,26 @@
+@import '../../assets/imports';
+
+.form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+  width: 100%;
+  text-align: left;
+
+  .label {
+    @include font-size(29);
+  }
+
+  .input {
+    width: 70%;
+    margin-left: 10px;
+    text-align: right;
+    color: $text-color;
+    @include font-size(29);
+    background: none;
+    border: none 0;
+    //border: solid 1px white;
+  }
+}
