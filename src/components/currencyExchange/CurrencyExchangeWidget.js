@@ -4,9 +4,23 @@ import ExchangeRateDropdown from '../exchangheRateDropdown/ExchangeRateDropdown'
 import CurrencyPocket from '../currencyPocket/CurrencyPocket';
 
 const CurrencyExchangeWidget = () => {
-  const currency = 'gbp';
-  const symbol = '£';
-  const balance = 58.33;
+  const accounts = [
+    {
+      currency: 'gbp',
+      symbol: '£',
+      balance: 58.33
+    },
+    {
+      currency: 'eur',
+      symbol: '€',
+      balance: 116.12
+    },
+    {
+      currency: 'usd',
+      symbol: '$',
+      balance: 45.5
+    }
+  ];
   const onInput = (value) => {
     console.log(value);
   };
@@ -21,17 +35,17 @@ const CurrencyExchangeWidget = () => {
       </div>
       <section className={ cssStyles.top }>
         <CurrencyPocket
-          currency={ currency }
-          currencySymbol={ symbol }
-          balance={ balance }
+          currency={ accounts[0].currency }
+          currencySymbol={ accounts[0].symbol }
+          balance={ accounts[0].balance }
           onChangeAmount={ onInput }
         />
       </section>
       <section className={ cssStyles.bottom }>
         <CurrencyPocket
-          currency={ currency }
-          currencySymbol={ symbol }
-          balance={ balance }
+          currency={ accounts[1].currency }
+          currencySymbol={ accounts[1].symbol }
+          balance={ accounts[1].balance }
           onChangeAmount={ onInput }
         />
       </section>

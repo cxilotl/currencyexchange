@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountBalance Snapshot 1`] = `
+<div
+  className="layout"
+>
+  <p
+    className="text"
+  >
+    You have 
+    <span
+      data-testid="account-balance"
+    >
+      £
+      53.50
+    </span>
+  </p>
+</div>
+`;

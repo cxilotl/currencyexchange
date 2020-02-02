@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Snapshot 1`] = `
+<div
+  className="layout"
+>
+  <div
+    className="widget"
+  >
+    <div
+      className="dropdown"
+    >
+      <div
+        className="wrapper"
+      >
+        <select
+          className="select"
+          data-testid="exchange-rate"
+          id="exchange-rate"
+        >
+          <option
+            className="option"
+            value="£1 = €1.3444"
+          >
+            £1 = €1.3444
+          </option>
+          <option
+            className="option"
+            value="€1 = £0.7438"
+          >
+            €1 = £0.7438
+          </option>
+        </select>
+      </div>
+    </div>
+    <section
+      className="top"
+    >
+      <section
+        className="layout"
+      >
+        <form
+          className="form"
+        >
+          <label
+            className="label"
+            htmlFor="currentCurrency"
+          >
+            GBP
+            <input
+              className="input"
+              data-testid="currency-input"
+              id="currentCurrency"
+              name="currentCurrency"
+              onChange={[Function]}
+              pattern="/^-?[0-9]+(\\\\.[0-9][0-9]?)?$/g"
+              placeholder="0.00"
+              type="number"
+            />
+          </label>
+        </form>
+        <div
+          className="layout"
+        >
+          <p
+            className="text"
+          >
+            You have 
+            <span
+              data-testid="account-balance"
+            >
+              £
+              58.33
+            </span>
+          </p>
+        </div>
+      </section>
+    </section>
+    <section
+      className="bottom"
+    >
+      <section
+        className="layout"
+      >
+        <form
+          className="form"
+        >
+          <label
+            className="label"
+            htmlFor="currentCurrency"
+          >
+            GBP
+            <input
+              className="input"
+              data-testid="currency-input"
+              id="currentCurrency"
+              name="currentCurrency"
+              onChange={[Function]}
+              pattern="/^-?[0-9]+(\\\\.[0-9][0-9]?)?$/g"
+              placeholder="0.00"
+              type="number"
+            />
+          </label>
+        </form>
+        <div
+          className="layout"
+        >
+          <p
+            className="text"
+          >
+            You have 
+            <span
+              data-testid="account-balance"
+            >
+              £
+              58.33
+            </span>
+          </p>
+        </div>
+      </section>
+    </section>
+  </div>
+</div>
+`;

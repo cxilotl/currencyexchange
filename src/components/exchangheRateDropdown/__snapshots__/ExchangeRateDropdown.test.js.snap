@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExchangeRateDropdown Snapshot 1`] = `
+<div
+  className="wrapper"
+>
+  <select
+    className="select"
+    data-testid="exchange-rate"
+    id="exchange-rate"
+  >
+    <option
+      className="option"
+      value="£1 = €1.3444"
+    >
+      £1 = €1.3444
+    </option>
+    <option
+      className="option"
+      value="€1 = £0.7438"
+    >
+      €1 = £0.7438
+    </option>
+  </select>
+</div>
+`;
