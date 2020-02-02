@@ -86,7 +86,7 @@ exports[`CurrencyExchangeWidget Snapshot 1`] = `
           className="label"
           htmlFor="currentCurrency"
         >
-          GBP
+          EUR
           <input
             className="input"
             data-testid="currency-input"
@@ -109,8 +109,8 @@ exports[`CurrencyExchangeWidget Snapshot 1`] = `
           <span
             data-testid="account-balance"
           >
-            £
-            58.33
+            €
+            116.12
           </span>
         </p>
       </div>
